@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spam Classifier</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+</head>
+<body style="background-color:powderblue;">
+
+	<header>
+		<div class="container" align="center">
+		<h2>Spam Detector For Email Messages</h2>
+		
+	</div>
+	</header>
+
+	<div class="ml-container" align="center">
+
+		<form action="../predict" method="POST">
+		<p>Enter Your Email Here</p>
+		<textarea name="message" rows="6" cols="50"></textarea>
+		<br/>
+
+		<input type="submit" class="btn-info" value="Submit">
+		
+	</form>
+		
+	</div>
+
+	
+	
+
+</body>
+</html>
